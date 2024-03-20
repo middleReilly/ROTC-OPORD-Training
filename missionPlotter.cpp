@@ -14,7 +14,6 @@
 #include <ctime>
 #include <ratio>
 #include <unistd.h>
-#include <thread>
 
 using namespace std;
 
@@ -28,7 +27,6 @@ void printMission(time_t start, time_t done, time_t finish, string newCoords, st
 
 int main()
 {
-
     intro();
 
     string option = "", coords = "";
@@ -74,10 +72,6 @@ int main()
 
 }
 
-/*
-intro
-prints the introduction to the program. gives user the gist
-*/
 void intro()
 {
     cout << "\n\e[7m Welcome to Mission Trainer \e[0m by Reilly White\n\n";
@@ -94,10 +88,6 @@ void intro()
          << "\t> quit                = quits the program, wimp\n\n\n";
 }
 
-/*
-help
-gives help, duh
-*/
 void help()
 {
     cout << "\n\e[7mHello there! This is the help center.\e[0m\n\n";
@@ -121,10 +111,6 @@ void help()
          << "Last Updated: 20 MAR 2024\n\n\n";
 }
 
-/*
-frago
-takes in a starting coordinate. gives user a frago to their mission
-*/
 void frago()
 {
     using namespace std::chrono;
