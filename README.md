@@ -4,10 +4,10 @@ Last Updated: Mar 20 2024
 
 HOW TO USE:
 - For Mac Users:
-  - Download file to Desktop
+  - Download missionPlotter.cpp to Desktop
   - Go to Terminal
-  - go into Desktop
-  - compile program with: g++ -o mission missionPlotter.cpp
-  - execute program with: ./mission
+    - Type cd Desktop
+  - compile program by typing: g++ -o mission missionPlotter.cpp
+  - execute program by typing: ./mission
 - For Windows Users:
   - IDK bro give me more time
