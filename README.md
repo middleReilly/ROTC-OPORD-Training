@@ -7,7 +7,7 @@ HOW TO USE:
   - Download file to Desktop
   - Go to Terminal
   - go into Desktop
-  - compile program with: g++ -o mission missionTrainer.cpp
+  - compile program with: g++ -o mission missionPlotter.cpp
   - execute program with: ./mission
 - For Windows Users:
   - IDK bro give me more time
