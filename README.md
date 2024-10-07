@@ -10,4 +10,4 @@ HOW TO USE:
   - compile program by typing: g++ -o mission missionPlotter.cpp
   - execute program by typing: ./mission
 - For Windows Users:
-  - IDK bro give me more time
+  - Unidentified steps, will upload in the future
