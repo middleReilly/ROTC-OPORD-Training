@@ -44,19 +44,19 @@ int main()
             route();
         } else {
             if (stupidCount == 0) {
-                cout << "You're not using it right. Input a valid option.\n"
+                cout << "You're not using it right. If you need assistance, input 'help'.\n"
                  << "> ";
                 cin >> option;
                 stupidCount++;
                 continue;
             } else if (stupidCount == 1) {
-                cout << "F%@ker, just input a right option.\n"
+                cout << "Okay guy, just input a right option.\n"
                      << "> ";
                 cin >> option;
                 stupidCount++;
                 continue;
             } else if (stupidCount > 1) {
-                cout << "Peace out, nimrod.\n\n";
+                cout << "Peace out, try again in the future.\n";
                 return 0;
             }
         }
@@ -100,7 +100,7 @@ void help()
          << "                      9206, 9200, 9806, 9800). The program will spit out a\n"
          << "                      basic mission in which you have 18 minutes to make\n"
          << "                      an OPORD. This will not tell you how good or bad your\n"
-         << "                      brief is, but it gets you reps using actual coords and TMK.\n\n"
+         << "                      brief is, but gives you reps using actual coords and TMKs.\n\n"
          << "route [CURR COORDS] - You provide feasible coordinates, and the program\n"
          << "                      spits out coordinates that can be anywhere within\n"
          << "                      the land nav site (literally, anywhere). Gets you\n"
